@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: futurism;
+  src: local('Futurism'), url(./resources/fonts/Futurism.otf) format('opentype');
+}
+@font-face {
+  font-family: futurism-light;
+  src: local('FuturismL'), url(./resources/fonts/FuturismL.otf) format('opentype');
+}
+
+.f-futurism{
+  font-family: futurism;
+}
+.f-futurismL{
+  font-family: futurism-light;
+}

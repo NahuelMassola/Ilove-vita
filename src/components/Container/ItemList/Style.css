@@ -1,0 +1,30 @@
+.itemlistContainer {
+    width: 100vh;
+}
+
+.tileContainer {
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);    
+}
+
+@media (max-width: 605px){
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(4 , 1fr);   
+    }
+}
+
+@media (min-width: 606px) and (max-width: 991px){
+    .card {
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(4 , 1fr);   
+    }
+}

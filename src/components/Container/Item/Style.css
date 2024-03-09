@@ -1,0 +1,36 @@
+.img-card{
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 20px;
+}
+
+.item-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-name{
+    text-align: center;
+    margin: 0;
+    font-weight: bold ;
+}
+
+.text-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-precio {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.btn-comprar{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
