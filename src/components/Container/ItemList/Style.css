@@ -5,16 +5,17 @@
 .tileContainer {
     align-items: center;
     text-align: center;
+    font-size: 2.5rem;
 }
 
-.card{
+.cardd{
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
     grid-template-rows: repeat(4 , 1fr);    
 }
 
 @media (max-width: 605px){
-    .card {
+    .cardd {
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
         grid-template-rows: repeat(4 , 1fr);   
@@ -22,7 +23,7 @@
 }
 
 @media (min-width: 606px) and (max-width: 991px){
-    .card {
+    .cardd {
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
         grid-template-rows: repeat(4 , 1fr);   

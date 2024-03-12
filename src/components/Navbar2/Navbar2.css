@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navlinks{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.underlinee:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #000000;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.underlinee:hover::after {
+    width: 100%; 
+    left: 0; 
+}
+
+
+.mobile-menu-icon {
+    border: none;
+    background: none;
+    font-size: 20px;
+    display: none;  
+}
+
+.title{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.titlee{
+    font-size: 3rem;
+    
+}
+.ddd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media ( max-width: 768px) {
+    
+    .nav-links-mobile{
+        display: block;
+        justify-content: center;
+        position: absolute;
+        text-decoration: none;
+        list-style: none;
+        box-shadow: rgba(50, 50, 93, 0.23) 0px 30px 30px -20px;
+        left: 0;
+        top: 10%;
+        transition: all 0.5s ease-in-out;
+        width: 100%;
+        background: rgb(255, 255, 255);
+        z-index: 1;
+    }
+   
+    .nav-links{
+        display: none;
+    }
+
+    .navlinks {
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+    }
+
+    .mobile-menu-icon {
+        position: absolute;
+        display: block;
+        right: 20px;
+        z-index: 1;
+    }
+    .cart {
+        display: none;
+    }
+    .navbar {
+        box-shadow: none;
+    }
+}
+
+
+

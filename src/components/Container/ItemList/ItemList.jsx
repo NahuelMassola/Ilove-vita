@@ -7,10 +7,10 @@ const IitemList = ({items}) => {
     
     return (
             <div className="row ">
-                <div className="card">
+                <div className="cardd">
                 {items.map(items =>
                 <div key={items.id} >
-                    <div className="" >
+                    <div >
                     <Item  id={items.id} nombre={items.nombre} imagen={items.imagen} precio={items.precio} />
                     </div>
                 </div>)}
